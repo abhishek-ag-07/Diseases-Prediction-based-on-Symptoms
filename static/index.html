@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <i class="fas fa-heartbeat header-icon"></i>
+                <h1>Disease Prediction System</h1>
+            </div>
+            <p class="subtitle">AI-powered symptom analysis - Predictions only, not medical diagnoses</p>
+        </header>
+
+        <main>
+            <div class="form-section">
+                <div id="symptomForm" class="symptom-form">
+                    <h2>
+                        <i class="fas fa-clipboard-list"></i>
+                        Select Your Symptoms
+                    </h2>
+                    
+                    <div class="search-box">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" id="symptomSearch" placeholder="Search symptoms..." autocomplete="off">
+                        <button id="clearSearch" class="clear-btn" title="Clear search">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="symptoms-container">
+                        <div id="symptomsList" class="symptoms-list">
+                            <p class="loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                Loading symptoms...
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="selected-symptoms">
+                        <h3>
+                            <i class="fas fa-check-circle"></i>
+                            Selected Symptoms 
+                            <span class="count-badge" id="selectedCount">0</span>
+                        </h3>
+                        <div id="selectedSymptoms" class="selected-tags">
+                            <p class="empty-message">No symptoms selected yet</p>
+                        </div>
+                        <button id="clearAll" class="clear-all-btn">
+                            <i class="fas fa-trash-alt"></i>
+                            Clear All
+                        </button>
+                    </div>
+
+                    <button id="predictBtn" class="predict-btn" disabled>
+                        <i class="fas fa-search"></i>
+                        Predict Disease
+                    </button>
+                </div>
+            </div>
+
+            <div id="resultSection" class="result-section hidden">
+                <div class="prediction-disclaimer">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <strong>Important:</strong> These are AI-generated predictions based on your symptoms, NOT a medical diagnosis. 
+                    Please consult with a healthcare professional for accurate diagnosis and treatment.
+                </div>
+                
+                <h2>
+                    <i class="fas fa-chart-line"></i>
+                    Top 3 Most Likely Conditions (Predictions)
+                </h2>
+                
+                <!-- Top 3 Predictions Cards -->
+                <div class="top-predictions-cards" id="topPredictionsCards">
+                    <!-- Cards will be dynamically inserted here -->
+                </div>
+
+                <!-- Suggested Steps -->
+                <div class="suggested-steps-section">
+                    <h3>
+                        <i class="fas fa-lightbulb"></i>
+                        Recommended Next Steps
+                    </h3>
+                    <p id="suggestedSteps" class="suggested-steps-text">-</p>
+                </div>
+
+                <div class="matched-symptoms">
+                    <h3>
+                        <i class="fas fa-tags"></i>
+                        Matched Symptoms
+                    </h3>
+                    <div id="matchedSymptoms" class="symptoms-tags"></div>
+                </div>
+
+                <button id="newPrediction" class="new-prediction-btn">
+                    <i class="fas fa-redo"></i>
+                    New Prediction
+                </button>
+            </div>
+
+            <div id="errorSection" class="error-section hidden">
+                <div class="error-card">
+                    <div class="error-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Error</h3>
+                    <p id="errorMessage"></p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>
+                <i class="fas fa-info-circle"></i>
+                <strong>Disclaimer:</strong> This system is for informational purposes only and should not replace professional medical advice. Always consult with a healthcare professional for accurate diagnosis and treatment.
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

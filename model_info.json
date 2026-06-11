@@ -1,0 +1,8 @@
+{
+  "model_type": "Ensemble_RF_XGB_LGB",
+  "test_accuracy": 90.83710407239819,
+  "f1_score_weighted": 90.48974015999801,
+  "trained_on": "full_dataset",
+  "num_diseases": 261,
+  "num_symptoms": 489
+}

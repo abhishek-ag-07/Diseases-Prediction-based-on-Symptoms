@@ -1,0 +1,168 @@
+                                                         precision    recall  f1-score   support
+
+                    Acquired Immuno Deficiency Syndrome     1.0000    1.0000    1.0000         1
+                            Acute encephalitis syndrome     0.8000    0.6667    0.7273         6
+                           Alcohol Abuse and Alcoholism     1.0000    1.0000    1.0000         1
+                                              Alzheimer     1.0000    0.6667    0.8000         3
+                                             Amoebiasis     0.0000    0.0000    0.0000         1
+                                                Anaemia     0.0000    0.0000    0.0000         4
+                                                Anthrax     0.9623    1.0000    0.9808        51
+                                           Appendicitis     1.0000    1.0000    1.0000         1
+                                              Arthritis     1.0000    1.0000    1.0000         4
+                                     Aseptic meningitis     0.0000    0.0000    0.0000         1
+                                                 Asthma     1.0000    1.0000    1.0000         1
+                                                 Autism     1.0000    1.0000    1.0000         3
+                                 Bad Breath (Halitosis)     1.0000    1.0000    1.0000         1
+                                           Bell's Palsy     1.0000    1.0000    1.0000         1
+                                               Beriberi     0.7500    1.0000    0.8571         3
+                                            Black Death     0.0000    0.0000    0.0000         1
+                                          Bleeding Gums     1.0000    1.0000    1.0000         3
+                                               Botulism     0.5000    1.0000    0.6667         1
+                                           Brain Tumour     1.0000    1.0000    1.0000         3
+                              Breast Cancer / Carcinoma     1.0000    1.0000    1.0000         6
+                                             Bronchitis     0.0000    0.0000    0.0000         0
+                                         Bubonic plague     1.0000    0.3333    0.5000         3
+                                                 Bunion     1.0000    1.0000    1.0000         1
+                                Campylobacter infection     0.0000    0.0000    0.0000         1
+                                                 Cancer     1.0000    1.0000    1.0000         6
+                              Carbon monoxide poisoning     1.0000    0.6667    0.8000         9
+                                 Carpal Tunnel Syndrome     1.0000    1.0000    1.0000        12
+                                               Cavities     1.0000    1.0000    1.0000         1
+                                        Celiacs disease     1.0000    1.0000    1.0000        14
+                                         Cerebral palsy     1.0000    1.0000    1.0000         3
+                                              Chalazion     1.0000    1.0000    1.0000         1
+                                             Chickenpox     1.0000    0.8333    0.9091         6
+                                                 Chorea     1.0000    1.0000    1.0000         1
+                                                Colitis     1.0000    1.0000    1.0000         3
+                                      Colorectal Cancer     1.0000    1.0000    1.0000         2
+                                            Common cold     1.0000    0.2500    0.4000         4
+                   Congenital anomalies (birth defects)     1.0000    1.0000    1.0000         1
+                               Congestive heart disease     1.0000    0.5000    0.6667         2
+                                       Corneal Abrasion     0.0000    0.0000    0.0000         1
+                    Coronavirus disease 2019 (COVID-19)     1.0000    1.0000    1.0000         6
+                Crimean Congo haemorrhagic fever (CCHF)     1.0000    0.8571    0.9231         7
+                                            Dehydration     1.0000    1.0000    1.0000         1
+                                               Dementia     0.6667    1.0000    0.8000         2
+                                                 Dengue     1.0000    1.0000    1.0000         2
+                                      Diabetes Mellitus     1.0000    1.0000    1.0000         1
+                                   Diabetic Retinopathy     1.0000    1.0000    1.0000         2
+                                        Down's Syndrome     1.0000    1.0000    1.0000         2
+                                              Dysentery     0.0000    0.0000    0.0000         1
+                                                  Ebola     1.0000    1.0000    1.0000         3
+                                              Eclampsia     0.0000    0.0000    0.0000         1
+                                      Ectopic pregnancy     0.0000    0.0000    0.0000         1
+                                                 Eczema     0.0000    0.0000    0.0000         1
+                                               Fibroids     1.0000    1.0000    1.0000         1
+                                           Fibromyalgia     0.0000    0.0000    0.0000         0
+                                         Food Poisoning     0.3333    1.0000    0.5000         1
+                                             Frost Bite     1.0000    1.0000    1.0000         1
+                                                   GERD     0.5000    1.0000    0.6667         3
+                                        Gaming disorder     1.0000    1.0000    1.0000         1
+                                               Gangrene     1.0000    1.0000    1.0000         2
+                                         Genital herpes     1.0000    1.0000    1.0000         1
+                                               Glaucoma     0.6667    1.0000    0.8000         4
+                                                 Goitre     1.0000    0.9167    0.9565        12
+                                              Gonorrhea     0.5000    1.0000    0.6667         1
+                  Heat-Related Illnesses and Heat waves     1.0000    0.9333    0.9655        15
+                                            Hepatitis A     1.0000    0.8000    0.8889        15
+                                            Hepatitis B     0.0000    0.0000    0.0000         1
+                                    High risk pregnancy     1.0000    1.0000    1.0000         2
+                                        Hyperthyroidism     0.9444    1.0000    0.9714        17
+                                            Hypothyroid     1.0000    1.0000    1.0000         2
+                             Inflammatory Bowel Disease     1.0000    0.6667    0.8000         3
+                                              Influenza     1.0000    1.0000    1.0000        15
+                                               Insomnia     1.0000    0.8333    0.9091         6
+                                  Interstitial cystitis     0.5000    1.0000    0.6667         1
+                                                 Iritis     1.0000    1.0000    1.0000         4
+                                 Iron Deficiency Anemia     0.5000    1.0000    0.6667         2
+                                  Japanese Encephalitis     0.0000    0.0000    0.0000         1
+                                               Jaundice     0.0000    0.0000    0.0000         1
+                               Kala-azar/ Leishmaniasis     0.6667    1.0000    0.8000         2
+          Keratoconjunctivitis Sicca (Dry eye syndrome)     1.0000    1.0000    1.0000         4
+                                             Laryngitis     1.0000    1.0000    1.0000         1
+                                         Lead poisoning     1.0000    0.9524    0.9756        21
+                                          Legionellosis     0.3333    0.5000    0.4000         2
+                                          Leptospirosis     0.0000    0.0000    0.0000         1
+                                               Leukemia     1.0000    1.0000    1.0000         3
+                                                   Lice     1.0000    1.0000    1.0000         1
+                                            Lung cancer     1.0000    0.5000    0.6667         2
+                                    Lupus erythematosus     0.9048    0.9500    0.9268        20
+                                               Lymphoma     1.0000    1.0000    1.0000         3
+                                        Mad cow disease     1.0000    1.0000    1.0000         3
+                                          Marburg fever     1.0000    0.5000    0.6667         2
+                                               Mastitis     1.0000    1.0000    1.0000         1
+                                                Measles     0.6000    0.7500    0.6667         4
+                                               Melanoma     0.6667    1.0000    0.8000         4
+Middle East respiratory syndrome coronavirus (MERS‐CoV)     0.0000    0.0000    0.0000         1
+                                               Migraine     0.6000    1.0000    0.7500         3
+                                          Mononucleosis     1.0000    1.0000    1.0000         1
+                                        Mouth Breathing     1.0000    0.8750    0.9333         8
+                                     Multiple sclerosis     0.5000    1.0000    0.6667         2
+                                                  Mumps     0.6667    1.0000    0.8000         2
+                                      Myasthenia gravis     1.0000    1.0000    1.0000         3
+                   Myocardial Infarction (Heart Attack)     1.0000    0.9902    0.9951       205
+                                                 Myopia     0.3333    1.0000    0.5000         2
+                                             Narcolepsy     1.0000    1.0000    1.0000         2
+                                           Nasal Polyps     0.7500    1.0000    0.8571         3
+                                  Necrotizing Fasciitis     0.0000    0.0000    0.0000         0
+            Neonatal Respiratory Disease Syndrome(NRDS)     1.0000    0.5000    0.6667         2
+                                              Neuralgia     1.0000    1.0000    1.0000         2
+                                  Nipah virus infection     0.0000    0.0000    0.0000         2
+                                                Obesity     1.0000    1.0000    1.0000         1
+                                            Oral Cancer     1.0000    1.0000    1.0000         9
+                                         Osteoarthritis     1.0000    1.0000    1.0000         1
+                                          Osteomyelitis     0.6667    1.0000    0.8000         2
+                                    Parkinson's Disease     1.0000    1.0000    1.0000         3
+                            Pelvic inflammatory disease     1.0000    0.8571    0.9231         7
+                      Perennial Allergic Conjunctivitis     0.9286    0.9286    0.9286        14
+                                            Peritonitis     0.0000    0.0000    0.0000         1
+                                              Pneumonia     0.3333    1.0000    0.5000         1
+                       Polycystic ovary syndrome (PCOS)     1.0000    0.9828    0.9913        58
+                                              Porphyria     0.9524    0.9091    0.9302        22
+                               Post Menopausal Bleeding     1.0000    1.0000    1.0000         1
+            Postpartum depression/ Perinatal depression     1.0000    1.0000    1.0000         4
+                                           Preeclampsia     0.0000    0.0000    0.0000         0
+                                  Premenstrual syndrome     1.0000    1.0000    1.0000         3
+                                             Presbyopia     1.0000    1.0000    1.0000         2
+                                     Pulmonary embolism     1.0000    1.0000    1.0000         2
+                                                 Quinsy     0.2222    1.0000    0.3636         2
+                                                 Rabies     1.0000    0.9286    0.9630        28
+                                   Raynaud's Phenomenon     0.5000    1.0000    0.6667         2
+                               Repetitive strain injury     1.0000    1.0000    1.0000         4
+                                        Rheumatic fever     0.2000    1.0000    0.3333         2
+                                      Rift Valley fever     0.0000    0.0000    0.0000         1
+                                                Rubella     1.0000    0.1250    0.2222         8
+                                                   SARS     1.0000    1.0000    1.0000         2
+                                            Sarcoidosis     1.0000    1.0000    1.0000         1
+                                          Scarlet fever     0.5000    1.0000    0.6667         1
+                                          Schizophrenia     1.0000    1.0000    1.0000         2
+                                               Sciatica     1.0000    1.0000    1.0000         1
+                                                Scrapie     1.0000    1.0000    1.0000        13
+                                           Scrub Typhus     0.0000    0.0000    0.0000         1
+                                                 Scurvy     1.0000    1.0000    1.0000         6
+                                                 Sepsis     0.0000    0.0000    0.0000         0
+                                     Sickle-cell anemia     1.0000    1.0000    1.0000         2
+                                               Smallpox     0.5000    0.5000    0.5000         4
+                               Stevens-Johnson syndrome     0.7500    1.0000    0.8571         3
+                                         Stomach ulcers     0.3333    1.0000    0.5000         1
+                                               Syphilis     0.5000    1.0000    0.6667         1
+                                      Tay-Sachs disease     1.0000    1.0000    1.0000         1
+                                           Thalassaemia     1.0000    1.0000    1.0000         4
+                                            Tonsillitis     0.7143    1.0000    0.8333         5
+                                   Toxic shock syndrome     1.0000    0.6667    0.8000         3
+                                         Trichomoniasis     1.0000    0.7500    0.8571         4
+                                           Tuberculosis     1.0000    1.0000    1.0000         2
+                                              Tularemia     0.0000    0.0000    0.0000         1
+                                              Urticaria     1.0000    0.5000    0.6667         2
+                                 Vitamin B12 Deficiency     0.8333    1.0000    0.9091         5
+                                       Warkany syndrome     1.0000    1.0000    1.0000         5
+                                                  Warts     0.0000    0.0000    0.0000         1
+                                                   Yaws     0.0000    0.0000    0.0000         0
+                                           Yellow Fever     1.0000    0.7500    0.8571         4
+                                     Zika virus disease     1.0000    0.4000    0.5714         5
+                                    lactose intolerance     0.6000    0.7500    0.6667         4
+                                           papilloedema     0.0000    0.0000    0.0000         1
+
+                                               accuracy                         0.9084       884
+                                              macro avg     0.7357    0.7623    0.7255       884
+                                           weighted avg     0.9264    0.9084    0.9049       884
